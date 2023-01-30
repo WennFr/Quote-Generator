@@ -3,6 +3,81 @@
 html,
 body{
 font-family: 'Roboto', sans-serif;
+/* background-image: url("https://images.unsplash.com/photo-1503614472-8c93d56e92ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8NGslMjBtb3VudGFpbnxlbnwwfHwwfHw%3D&w=1000&q=80"); */
+background-image: url("https://static.vecteezy.com/system/resources/previews/006/165/539/original/light-abstract-3d-geometric-background-white-triangles-with-gold-lines-free-wallpaper-free-photo.jpg");
+
+}
+
+a{
+    text-decoration: none;
+
+}
+
+
+
+#header{
+
+    display: flex;
+    justify-content: center;
+    background-color: #afa78d;
+
+
+} 
+
+.container{
+
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+
+.container #quote{
+    font-style: italic;
+    margin-bottom: 10px;
+
+}
+
+.container #author{
+
+    font-weight: bold;
+
+}
+
+
+
+
+
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:  100px;
+    border-radius: 50%;
 
 
 }
+    #button button{
+        background-color: rgb(189, 8, 8);
+        padding-top: 35px;
+        padding-bottom: 35px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        
+        border-radius: 50%;
+        box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.1);
+        
+    }
+
+    #button button:hover{
+
+        background-color: #222529;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+
+        #button button a {
+            color: #ffffff;
+        }
