@@ -19,26 +19,15 @@ const authors = ["-Julius Caesar", "-John Lennon",
 var arrayIndex = 0;
 
 
-// document.getElementById("button-click").onclick = function() {Generate()};
 
 function Generate() {
-    // if (arrayIndex >= quotes.length) {
-    //     arrayIndex = 0;
-    // }
-
+   
     arrayIndex = Math.floor(Math.random() * (quotes.length));
-
-
     quote.innerText = quotes[arrayIndex];
     author.innerText = authors[arrayIndex];
-    // arrayIndex++;
 }
 
-// var button = document.getElementById('button-click')
 
-// button.addEventListener("click", ()=>{
-//     quote = "new quote";
-// });
 
 
 

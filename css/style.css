@@ -20,9 +20,6 @@ a{
     display: flex;
     justify-content: center;
     background-color: #afa78d;
-    /* background-color: rgb(190, 87, 87); */
-
-
 } 
 
 .container{
@@ -86,6 +83,4 @@ a{
     }
 
 
-        /* #button button a {
-            color: #ffffff;
-        } */
+      
